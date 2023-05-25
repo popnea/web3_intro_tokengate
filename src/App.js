@@ -51,6 +51,8 @@ class App extends Component {
           <div><h1>Where's the h1?</h1>
             <h2>No Wallet Detected</h2>
             <p>Please enable a wallet such as Metamask</p>
+            <p>A how-to would be helpful here</p>
+
           </div>
         }
         {!this.state.accounts && this.state.web3 &&
