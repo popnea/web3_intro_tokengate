@@ -6,7 +6,7 @@ class App extends Component {
   state = { 
     web3: null,
     accounts: null,
-    contract: 'CONTRACT ADDRESS HERE',
+    contract: 'QmRFPt8vduaq6svpUuiCDMLbpWAYCmZxg3Xsy1Us8PJQcF',
     hasNft: false
   };
 
@@ -48,7 +48,7 @@ class App extends Component {
     return (
       <div>
         {!this.state.web3 &&
-          <div>
+          <div><h1>Where's the h1?</h1>
             <h2>No Wallet Detected</h2>
             <p>Please enable a wallet such as Metamask</p>
           </div>
@@ -69,7 +69,7 @@ class App extends Component {
             <h3>Token Gate</h3>
             <h4>You have the NFT!</h4>
             <p>
-              <img className="nft" src="media/nft.jpg"/>
+              <img className="nft" src="media/nft.gif"/>
             </p>
           </div>
         }
